@@ -14,6 +14,7 @@ public class Elke : ModuleRules
             "CoreUObject",
             "Engine",
             "InputCore",
+            "EnhancedInput",
             "Paper2D"
         });
 
