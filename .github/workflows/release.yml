@@ -7,9 +7,10 @@ jobs:
         name: Build
         runs-on: windows-latest
         steps:
-        - name: Setup MSBuild
-            uses: microsoft/setup-msbuild@v1
+            - name: Setup MSBuild
+                uses: microsoft/setup-msbuild@v1
+                
  #       - name: Setup engine
  #           run: .\SetupEngine.bat
  #       - name: Package game
- #           run: .\PackageGame.bat
+            #run: .\PackageGame.bat
