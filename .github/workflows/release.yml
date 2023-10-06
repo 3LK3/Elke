@@ -9,7 +9,7 @@ jobs:
         steps:
         - name: Setup MSBuild
             uses: microsoft/setup-msbuild@v1
-        - name: Setup engine
-            run: .\SetupEngine.bat
-        - name: Package game
-            run: .\PackageGame.bat
+ #       - name: Setup engine
+ #           run: .\SetupEngine.bat
+ #       - name: Package game
+ #           run: .\PackageGame.bat
