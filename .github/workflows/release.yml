@@ -8,8 +8,8 @@ jobs:
         runs-on: windows-latest
         steps:
             - uses: microsoft/setup-msbuild@v1
-                
- #       - name: Setup engine
- #           run: .\SetupEngine.bat
+            - name: Setup engine
+              run: .\SetupEngine.bat
+              
  #       - name: Package game
             #run: .\PackageGame.bat
